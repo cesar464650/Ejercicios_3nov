@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main(){
+	int a, b, c, x=0;
+	
+	printf("Digite el valor para a, b y c: "); scanf("%d%d%d", &a, &b, &c);
+	
+	x = (c-b)/a;
+	
+	printf("\nEl valor de x es: %d", x);
+	
+	return 0;
+}
