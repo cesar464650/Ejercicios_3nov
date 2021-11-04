@@ -1,0 +1,22 @@
+#include<stdio.h>
+// Programa que muestra el valor de y=ax^3 + bx^2 + cx +d 
+int main(){
+	float a, b, c, d, x, y;
+	
+	// Lectura de coeficientes
+	printf("Evaluacion del polinomio y=ax^3 + bx^2 + cx +d.\n");
+	printf("Valor de los coeficientes a, b, c y d:");
+	scanf("%f%f%f%f", &a, &b, &c, &d);
+	
+	// Lectura del valor de x
+	printf("Introducir el valor de la varible x:"); scanf("%f", &x);
+	
+	// Proceso: calculo del polinomio
+	y = a*x*x*x + b*x*x + c*x +d;
+	
+	// Salida
+	printf("El resultado del plinomio %.2f x^3 + %.2f x^2", a, b);
+	printf(" + %.2f x + %.2f para x=%.2f es: %.2f\n", c, d, x, y);
+	
+	return 0;
+}
