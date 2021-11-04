@@ -1,0 +1,17 @@
+#include<stdio.h>
+	//Programa que lee un caracter en minusculas ylo escribe en mayusculas
+int main(){
+	// printf("%d\n", 'a'); Imprime el codigo ASCII de a que es 97
+	char minuscula, mayuscula;
+	
+	// Lectura de datos: minuscula.
+	printf("Introduce un caracter en minuscula: "); scanf("%c", &minuscula);
+	
+	//Proceso: transformar a mayuscula.
+	mayuscula = minuscula-32;
+	
+	// Salida
+	printf("El caracter %c en mayuscula es %c\n", minuscula, mayuscula);
+	
+	return 0;
+}
