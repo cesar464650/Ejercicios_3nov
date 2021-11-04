@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main(){
+	int a=4, b=3, c=4, x=1, y=1, z=1, h=0;
+	
+	h = (a>b) || (b==c);
+	printf("a) %d\n", h);
+	
+	h = (a!=b) && (a!=b) || (x==z);
+	printf("b) %d\n", h);
+	
+	h = ((a>=b) || (x>=z)) && ((x!=b) && (y==z));
+	printf("c) %d\n", h);
+	
+	h = (!(a>b)) || (x!=b);
+	printf("d) %d\n", h);
+	
+	return 0;
+}
