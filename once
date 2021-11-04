@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main(){
+	
+	
+	printf("a) %d\n", 5/2+20%6);
+	
+	printf("b) %d\n", 4*6/2-15/2);
+	
+	printf("c) %d\n", 5*15/2/(4-2));
+	
+	printf("d) %d\n", 8==16 || 7!=4 && 4<1);
+	
+	printf("e) %d\n", (4*3<6 || 3>5-2) && 3+2<12);
+	
+	printf("f) %d\n", 7+3*6/2-1);
+	
+	printf("g) %d\n", 2%2+2*2-2/2);
+	
+	printf("h) %d\n", (3*9*(3+(9*3/(3)))));
+	
+	return 0;
+}
