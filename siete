@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main(){
+	int x=3, y;
+	float z;
+	
+	y=x+3;
+	printf("%d\n", y); // 6
+	y=3*x*x + 2*x + 1;
+	printf("%d\n", y); // 34
+	z=x*0.3;
+	printf("%f\n", z); // .9
+	z=y/x;
+	printf("%f\n", z); // 11 ya que los que se dividen son numero enteros
+	z=(float)y/x; // conversion en numeros reales
+	printf("%f\n", z); // 11.333
+	
+	return 0;
+}
