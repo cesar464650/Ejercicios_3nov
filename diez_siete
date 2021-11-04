@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+
+int main(){
+	int sorteo, ultimo_numero;
+	
+	srand(time(NULL));
+	sorteo = 1 + rand()% (36525);
+	
+	ultimo_numero = sorteo%10;
+	
+	printf("El ultimo numero es: %d\n", ultimo_numero);
+	printf("El numero del sorteo es: %d", sorteo);
+	
+	return 0;
+}
